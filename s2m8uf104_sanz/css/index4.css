@@ -1,0 +1,94 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: #e9ebed;
+  font-family: LucidaGrande;
+}
+#barra{
+  height:43px;
+  background-color: #5066ae;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+#contingut{
+  margin: 0 auto;
+  background-color: pink;
+  height: 2000px;
+  width: 852px;
+  background-position: center;
+}
+#cap{
+  background-color: white;
+  background-image: url(../img/yonacap.jpg);
+  background-repeat: no-repeat;
+  background-size: 852px 315px;
+  height: 358px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  margin-bottom: 12px;
+
+
+
+}
+#principal{
+  background-color: green;
+  height: 500px;
+}
+
+#cap img{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: solid white 4px;
+  position: relative;
+  top: 160px;
+  left: 21px;
+  box-shadow: 3px 3px 3px black;
+}
+#cap h2{
+  position: relative;
+  top: 70px;
+  left: 250px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+#contingut #menu{
+  height: 43px;
+  background-color: #e9ebed;
+  width: 598px;
+  float:right;
+  padding: 0;
+  margin: 0;
+  position:relative;
+  top:66px;
+}
+
+#menu li{
+  float:left;
+  margin: 0 0 0 1px;
+  list-style-type: none;
+  background-color:white;
+  display:block;
+  height: 43px;
+  padding: 0 20px;
+  line-height: 43px;
+}
+
+#principal{
+
+}
+.esquerra {
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  height: 200px;
+  width: 322px;
+  margin-top: 12px;
+}
+
+#fotos{
+  background-color: red;
+}
