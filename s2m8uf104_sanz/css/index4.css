@@ -2,7 +2,7 @@ body{
   margin:0;
   padding:0;
   background-color: #e9ebed;
-  font-family: LucidaGrande;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
 }
 #barra{
   height:43px;
@@ -87,8 +87,26 @@ body{
   height: 200px;
   width: 322px;
   margin-top: 12px;
+  float: left;
+  clear: left;
 }
 
 #fotos{
   background-color: red;
+}
+
+#seccions{
+  width: 322px;
+  float:left;
+}
+.dreta{
+  background-color: blue;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  height: 100px;
+  width: 516px;
+  margin-top: 12px;
+  float:right;
+  clear:right;
+
 }
