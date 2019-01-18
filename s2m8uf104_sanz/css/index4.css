@@ -4,6 +4,7 @@ body{
   background-color: #e9ebed;
   font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
 }
+
 #barra{
   height:43px;
   background-color: #5066ae;
@@ -11,14 +12,16 @@ body{
   top:0;
   left:0;
   right:0;
+  z-index: 1000px;
 }
+
 #contingut{
   margin: 0 auto;
-  background-color: pink;
-  height: 2000px;
   width: 852px;
   background-position: center;
+  overflow: hidden;
 }
+
 #cap{
   background-color: white;
   background-image: url(../img/yonacap.jpg);
@@ -28,10 +31,8 @@ body{
   border: 1px solid #DDD;
   border-radius: 3px;
   margin-bottom: 12px;
-
-
-
 }
+
 #principal{
   background-color: green;
   height: 500px;
@@ -77,16 +78,20 @@ body{
   line-height: 43px;
 }
 
-#principal{
-
-}
-.esquerra {
+.esquerra, .dreta {
+  overflow:hidden;
   background-color: white;
   border-radius: 3px;
   border: solid 1px #DDD;
-  height: 200px;
-  width: 322px;
   margin-top: 12px;
+  padding:12px;
+}
+
+.esquerra li, .dreta li {
+  list-style-type: none;
+}
+.esquerra {
+  width: 298px;
   float: left;
   clear: left;
 }
@@ -99,14 +104,18 @@ body{
   width: 322px;
   float:left;
 }
+
 .dreta{
-  background-color: blue;
-  border-radius: 3px;
-  border: solid 1px #DDD;
   height: 100px;
-  width: 516px;
-  margin-top: 12px;
+  width: 492px;
   float:right;
   clear:right;
+}
 
+#seccions h3{
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  background-position: 0 -24px;
+  text-indent: 26px;
+  height: 24px;
 }
