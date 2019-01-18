@@ -119,3 +119,29 @@ body{
   text-indent: 26px;
   height: 24px;
 }
+#presentacio p{
+  padding-bottom: 12px;
+  box-shadow: 0 1px 0 #DDD;
+}
+#presentacio .estudis{
+  list-style-image: url(../img/icones_estudis.png);
+}
+#presentacio .domicili{
+  list-style-image: url(../img/icones_domicili.png);
+}
+#presentacio .feina{
+  list-style-image: url(../img/icones_feina.png);
+}
+#presentacio .neixement{
+  list-style-image: url(../img/icones_ubicacio.png);
+}
+
+#presentacio h3{
+  background-position: 0 0;
+}
+#amistats h3{
+  background-position: 0 -48px;
+}
+#surprise h3{
+  background-position: 0 -72px;
+}
