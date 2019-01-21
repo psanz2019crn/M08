@@ -145,3 +145,47 @@ body{
 #surprise h3{
   background-position: 0 -72px;
 }
+#amistats ul{
+  background-color: green;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+#amistats li{
+  width: 95px;
+  height: 95px;
+  background-color: red;
+  padding:0;
+  margin: 2px;
+  float:left;
+  background-size: cover;
+  }
+
+#sf{
+  background-image: url(https://sfernandez2019crn.github.io/M08/s2m8uf104_fernandez/img/gos.png);
+}
+#ac{
+  background-image: url(https://acarranco2019crn.github.io/m08/s2m8uf0104carranco/img/profile.jpg);
+}
+#sg{
+  background-image: url(https://sgarzon2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg);
+}
+#sp{
+  background-image: url(https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg);
+}
+#np{
+  background-image: url(https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg);
+}
+#op{
+  background-image: url(https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png);
+}
+#nc{
+  background-image: url(https://nchia2019crn.github.io/M08/s2m8uf104_chia/img/perfil.jpg);
+}
+#vh{
+  background-image: url(https://vherrero2019crn.github.io/M08/s2m8uf104facebook/img/perfil.png);
+}
+#sm{
+  background-image: url(https://smarcer2019crn.github.io/M08/s2m8uf104_marcer/img/perfil_yo.jpg);
+}
