@@ -159,7 +159,8 @@ body{
   padding:0;
   margin: 2px;
   float:left;
-  background-size: cover;
+  background-size: 100%;
+  position:relative;
   }
 
 #sf{
@@ -188,4 +189,17 @@ body{
 }
 #sm{
   background-image: url(https://smarcer2019crn.github.io/M08/s2m8uf104_marcer/img/perfil_yo.jpg);
+}
+
+#amistats li a:link{
+  color:white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 3px;
+  font-size: 15px;
+
+}
+#amistats a:visited{
+  color:white;
+  text-decoration: none;
 }
