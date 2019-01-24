@@ -97,7 +97,7 @@ body{
 }
 
 #fotos{
-  background-color: red;
+  background-color: white;
 }
 
 #seccions{
@@ -146,7 +146,7 @@ body{
   background-position: 0 -72px;
 }
 #amistats ul{
-  background-color: green;
+  background-color: white;
   margin:0;
   padding:0;
   overflow: hidden;
@@ -155,7 +155,7 @@ body{
 #amistats li{
   width: 95px;
   height: 95px;
-  background-color: red;
+  background-color: white;
   padding:0;
   margin: 2px;
   float:left;
@@ -202,4 +202,46 @@ body{
 #amistats a:visited{
   color:white;
   text-decoration: none;
+}
+#fotos ul{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#fotos li{
+  width: 95px;
+  height: 95px;
+  background-color: white;
+  padding: 0;
+  margin: 2px;
+  float:left;
+  background-size: cover;
+  position:relative;
+}
+#Y1{
+  background-image: url(https://vignette.wikia.nocookie.net/akatsukinoyona/images/7/7c/Yona_Anime.png/revision/latest?cb=20150205105525&path-prefix=es);
+}
+
+#Y2{
+  background-image: url(http://ramenparados.com/wp-content/uploads/2016/04/akatsuki-no-yona-ilustracion-1000x600.jpg);
+  background-repeat: no-repeat;
+//2x1//
+}
+#Y3{
+  background-image: url(http://lostinanime.com/wp-content/uploads/2015/02/AkatsukinoYona-18-9-1024x576.jpg);
+}
+
+#Y4{
+  background-image: url(https://i.pinimg.com/originals/a7/01/6e/a7016e2efe0db3f1172a5cc14a7c03ed.jpg);
+}
+#Y5{
+  background-image: url(https://lh3.googleusercontent.com/-iJh-bDXD0Xk/WE7veml9EDI/AAAAAAAABM4/ZfupTMIcE6I23yyj2Vtw-sNyGnWnwHiKwCJoC/w640-h627/E1024CC9-3A22-43B6-901F-8823EF66676E_zpsxy9rwtko.jpg);
+}
+#Y6{
+  background-image: url(https://rukminim1.flixcart.com/image/832/832/jmqmpow0-1/poster/9/b/x/medium-athah-anime-yona-of-the-dawn-su-won-yona-hak-son-rabbit-original-imaf9kz6mgygzjjg.jpeg?q=70);
+}
+#Y7{
+  background-image: url(https://vignette.wikia.nocookie.net/akatsukinoyona/images/e/e1/Hak_de_ni%C3%B1o.png/revision/latest?cb=20160820204920&path-prefix=es);
+
 }
