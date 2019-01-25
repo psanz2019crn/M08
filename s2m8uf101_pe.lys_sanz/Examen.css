@@ -1,0 +1,141 @@
+body{
+  background-color: #222;
+  margin:0;
+  padding:0;
+  font-family: helvetica,sans-serif;
+}
+
+
+#barra{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  position:fixed;
+
+}
+
+#barra ul{
+  padding: 20px;
+  margin: 0;
+
+}
+
+#barra li{
+  display: inline;
+  padding: 5px;
+  margin:0;
+  color: #FFF;
+  list-style-type:none;
+
+}
+#seccions{
+  border-radius: 5px;
+  background-color: yellow;
+  position: static;
+  padding: 0;
+}
+#seccions h1{
+  font-size: 22px;
+  color: #FFF;
+
+}
+#seccions h2{
+  font-size: 14px;
+  color: #CCC;
+
+}
+#seccions h3{
+  font-size: 11px;
+  color: #CCC;
+}
+
+#inter{
+  padding:20px;
+  background-color: red;
+}
+
+#inter #f1{
+  background-color: green;
+  margin:1px;
+  float: left;
+}
+#inter #f2{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f3{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f4{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f5{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f6{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f7{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f8{
+  background-color: green;
+  margin:1px;
+  float:left;
+}
+#inter #f9{
+  background-color: green;
+  margin:1px;
+  float:left;
+
+}
+
+#dvist{
+  padding: 20px;
+  height: 175px;
+  background-color: orange;
+  
+}
+#dvist #g1{
+  background-color: green;
+  margin:1px;
+}
+
+#g1 img{
+  -webkit-filter:grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#pendents{
+  padding: 20px;
+  height: 175px;
+  background-color: blue;
+}
+#pvist{
+  padding: 20px;
+  height: 175px;
+  background-color: red;
+}
+#seguint{
+  padding: 20px;
+  height: 175px;
+  background-color: red;
+}
+#svist{
+  padding: 20px;
+  height: 175px;
+  background-color: red;
+}
