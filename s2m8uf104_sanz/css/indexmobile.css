@@ -1,117 +1,77 @@
+@media only screen and (max-width:959px){
+
 body{
   margin:0;
   padding:0;
   background-color: #e9ebed;
-  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+  font-family: helvetica, Tahoma, Segoe UI, San Francisco, Roboto;
 }
 
 #barra{
-  height:43px;
-  background-color: #5066ae;
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  z-index: 1000px;
+  visibility:hidden;
 }
 
 #contingut{
-  margin: 0 auto;
-  width: 852px;
-  background-position: center;
-  overflow: hidden;
+
 }
 
 #cap{
-  background-color: white;
   background-image: url(../img/yonacap.jpg);
   background-repeat: no-repeat;
-  background-size: 852px 315px;
-  height: 358px;
-  border: 1px solid #DDD;
-  border-radius: 3px;
-  margin-bottom: 12px;
+  background-size: 100% auto;
+  height: 254px;
+  text-align: center;
+
 }
 
 #principal{
-  background-color: ;
-  height: 500px;
+
 }
 
 #cap img{
-  width: 170px;
-  height: 170px;
+  width: 162px;
+  height: 162px;
   border-radius: 50%;
   border: solid white 4px;
-  position: relative;
-  top: 160px;
-  left: 21px;
-  box-shadow: 3px 3px 3px black;
+  margin-top: 173px;
 }
 
 #cap h2{
-  position: relative;
-  top: 70px;
-  left: 250px;
-  color: white;
-  text-shadow: 3px 3px 3px black;
+  font-size: 28px;
+  font-weight: 200px;
+
 }
 
 #contingut #menu{
-  height: 43px;
-  background-color: #e9ebed;
-  width: 598px;
-  float:right;
-  padding: 0;
-  margin: 0;
-  position:relative;
-  top:66px;
+ visibility: hidden;
 }
 
 #menu li{
-  float:left;
-  margin: 0 0 0 1px;
-  list-style-type: none;
-  background-color:white;
-  display:block;
-  height: 43px;
-  padding: 0 20px;
-  line-height: 43px;
+
 }
 
 .esquerra, .dreta {
-  overflow:hidden;
-  background-color: white;
-  border-radius: 3px;
-  border: solid 1px #DDD;
-  margin-top: 12px;
-  padding:12px;
+
 }
 
 .esquerra li, .dreta li {
-  list-style-type: none;
+
 }
 
 .esquerra {
-  width: 298px;
-  float: left;
-  clear: left;
+
 }
 
 #fotos{
-  background-color: white;
+
 }
 
 #seccions{
-  width: 322px;
-  float:left;
+
 }
 
 .dreta{
-  height: auto;
-  width: 492px;
-  float:right;
-  clear:right;
+
 }
 
 #seccions h3{
@@ -232,7 +192,7 @@ body{
   position:relative;
 }
 #fotos #grid{
-  
+
 }
 
 #Y1{
@@ -409,4 +369,5 @@ body{
 
 #publica:hover,#publica_foto:hover,#publica_video:hover,#publica_aconteixement:hover{
   opacity: 0.5;
+}
 }
